@@ -6,7 +6,7 @@ This module is a Microbit finds temperature
 from microbit import *
 import random
 
-# varibale for temperature
+# variable for temperature
 temperature = 0
 
 display.clear()
