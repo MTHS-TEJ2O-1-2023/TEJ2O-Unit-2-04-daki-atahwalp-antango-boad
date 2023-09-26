@@ -12,7 +12,7 @@ basic.clearScreen()
 basic.pause(1000)
 basic.showIcon(IconNames.Happy)
 
-input.onButtonPressed(Button.A, function() {
-    temperature = input.temperature()
-    basic.showNumber(input.temperature())
+input.onButtonPressed( Button.A, function() {
+  temperature = input.temperature()
+  basic.showNumber(input.temperature())
 })
