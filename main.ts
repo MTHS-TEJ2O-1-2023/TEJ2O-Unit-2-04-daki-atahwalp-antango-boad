@@ -5,13 +5,16 @@
  * This program finds temperature
 */
 
+// variables
 let randomNumber: number
 let temperature = input.temperature()
 
+// clean up
 basic.clearScreen()
 basic.pause(1000)
 basic.showIcon(IconNames.Happy)
 
+// on button A
 input.onButtonPressed( Button.A, function() {
   temperature = input.temperature()
   basic.showNumber(input.temperature())
