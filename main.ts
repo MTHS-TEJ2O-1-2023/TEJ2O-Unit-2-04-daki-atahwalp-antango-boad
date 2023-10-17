@@ -6,8 +6,8 @@
 */
 
 // variables
-let randomNumber: number
-let temperature = input.temperature()
+let temperature : number
+let temperatureDisplay = temperature
 
 // clean up
 basic.clearScreen()
@@ -15,7 +15,7 @@ basic.pause(1000)
 basic.showIcon(IconNames.Happy)
 
 // on button A
-input.onButtonPressed( Button.A, function() {
+input.onButtonPressed( Button.A, function () {
   temperature = input.temperature()
-  basic.showNumber(input.temperature())
+  basic.showNumber(temperatureDisplay)
 })
