@@ -2,11 +2,11 @@
  *
  * Created by: Daki A.B
  * Created on: Sep 2023
- * This program finds temperature in Celsius 
+ * This program finds temperature in Celsius
 */
 
 // variables
-let temperature : number
+let temperature: number
 
 // clean up
 basic.clearScreen()
