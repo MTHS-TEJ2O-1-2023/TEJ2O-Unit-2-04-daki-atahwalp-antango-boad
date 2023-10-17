@@ -7,7 +7,6 @@
 
 // variables
 let temperature : number
-let temperatureDisplay = temperature
 
 // clean up
 basic.clearScreen()
@@ -17,6 +16,6 @@ basic.showIcon(IconNames.Happy)
 // on button A
 input.onButtonPressed(Button.A, function () {
   temperature = input.temperature()
-  basic.showNumber(temperatureDisplay)
+  basic.showNumber(temperature)
   basic.showString('C')
 })
